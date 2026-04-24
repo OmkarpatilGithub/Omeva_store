@@ -135,25 +135,17 @@
             </div>
 
             <!-- ORDER BUTTON -->
-            <a
-              href={`https://wa.me/919270905007?text=${encodeURIComponent(
+          <a
+  href={`https://wa.me/919270905007?text=${encodeURIComponent(
     `I'm interested in ${product.name} (${product.id})`
   )}`}
-              target="_blank"
-              rel="noopener"
-              class="font-mono text-xs px-3 py-1.5 transition-all duration-200 whitespace-nowrap rounded"
-              style="border: 1px solid var(--border); color: var(--text);"
-              on:mouseover={(e) => {
-                e.currentTarget.style.background = 'var(--text)';
-                e.currentTarget.style.color = 'var(--bg)';
-              }}
-              on:mouseout={(e) => {
-                e.currentTarget.style.background = 'transparent';
-                e.currentTarget.style.color = 'var(--text)';
-              }}
-            >
-              ORDER →
-            </a>
+  target="_blank"
+  rel="noopener"
+  class="font-mono text-xs px-3 py-1.5 transition-all duration-200 whitespace-nowrap rounded"
+  style="border: 1px solid var(--border); color: var(--text);"
+>
+  ORDER →
+</a>
           </div>
         </div>
 
