@@ -3,7 +3,7 @@
 
   const products = [
     { id: 'DRV-001', name: 'RAWPRINT OVERSIZED', tag: 'SIGNATURE GRAPHIC', badge: null,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/inkDrop.webp' },
-    { id: 'DRV-002', name: 'NOIR ESSENTIAL', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS' ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/chimya.webp'},
+    { id: 'DRV-002', name: 'NOIR ESSENTIAL', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS' ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/chimya.png'},
     { id: 'DRV-003', name: 'FORCEPS HEAVYWEIGHT', tag: 'FRONT & BACK PRINT', badge: null ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/neverlose.webp'},
     { id: 'DRV-004', name: 'BLANK CANVAS', tag: 'PLAIN PREMIUM', badge: null ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/designed.webp'},
     { id: 'DRV-005', name: 'STREET UNIFORM', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS',image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/sabr.webp' },
