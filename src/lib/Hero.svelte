@@ -107,7 +107,7 @@
   <div class="layer-overlay" style={overStyle}>
     <div class="overlay-content overlay-eyebrow">Heavyweight Cotton — Custom Print</div>
     <div class="fore-brand">OMEVA<em>.</em></div>
-    <div class="overlay-content overlay-tag">WEAR YOUR<br /><em>PRINT.</em></div>
+    <div class="overlay-content overlay-tag">WEAR YOUR<br /><em>STORY.</em></div>
     <div class="overlay-content overlay-sub">Zero middlemen. You design it, we print it.</div>
     <a
       href="https://wa.me/919270905007"
