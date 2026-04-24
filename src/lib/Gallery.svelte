@@ -2,12 +2,12 @@
   import VanillaTilt from "vanilla-tilt";
 
   const products = [
-    { id: 'DRV-001', name: 'RAWPRINT OVERSIZED', tag: 'SIGNATURE GRAPHIC', badge: null,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/inkDrop.webp' },
-    { id: 'DRV-002', name: 'NOIR ESSENTIAL', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS' ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/chimya.png'},
-    { id: 'DRV-003', name: 'FORCEPS HEAVYWEIGHT', tag: 'FRONT & BACK PRINT', badge: null ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/neverlose.webp'},
-    { id: 'DRV-004', name: 'BLANK CANVAS', tag: 'PLAIN PREMIUM', badge: null ,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/designed.webp'},
-    { id: 'DRV-005', name: 'STREET UNIFORM', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS',image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/sabr.webp' },
-    { id: 'DRV-006', name: 'STUDIO SAMPLE', tag: 'FULL SLEEVE', badge: null,image:'https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/vintage.webp'},
+    { id: 'DRV-001', name: 'RAWPRINT OVERSIZED', tag: 'SIGNATURE GRAPHIC', badge: null,image:'https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/inkDrop.webp' },
+    { id: 'DRV-002', name: 'NOIR ESSENTIAL', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS' ,image:'https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/chimya.png'},
+    { id: 'DRV-003', name: 'FORCEPS HEAVYWEIGHT', tag: 'FRONT & BACK PRINT', badge: null ,image:'https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/neverlose.webp'},
+    { id: 'DRV-004', name: 'BLANK CANVAS', tag: 'PLAIN PREMIUM', badge: null ,image:'https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/designed.webp'},
+    { id: 'DRV-005', name: 'STREET UNIFORM', tag: 'SINGLE LOGO TEE', badge: 'ESSENTIALS',image:'https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/sabr.webp' },
+    { id: 'DRV-006', name: 'STUDIO SAMPLE', tag: 'FULL SLEEVE', badge: null,image:'https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/vintage.webp'},
   ];
 
   function applyTilt(el) {
