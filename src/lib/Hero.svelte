@@ -64,7 +64,7 @@
       >
         <!-- Background Gradient -->
             <img
-      src="https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/inkDrop.webp"
+      src="https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/inkDrop.webp"
       alt="OMEVA T-shirt"
       class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
     />
