@@ -48,9 +48,9 @@
     <!-- Logo -->
     <a href="/" class="flex items-center gap-2 py-1">
       {#if darkMode}
-        <img src="https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/darkLogo.png" alt="OMEVA logo" class="logo" />
+        <img src="https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/darkLogo.png" alt="OMEVA logo" class="logo" />
       {:else}
-        <img src="https://github.com/OmkarpatilGithub/Omeva_store/blob/main/static/lightLogo.png" alt="OMEVA logo" class="logo" />
+        <img src="https://raw.githubusercontent.com/OmkarpatilGithub/Omeva_store/main/static/lightLogo.png" alt="OMEVA logo" class="logo" />
       {/if}
     </a>
 
