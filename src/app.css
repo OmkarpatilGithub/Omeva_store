@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   THEME COLORS (BRAND BASED)
+========================= */
+/* =========================
+   THEME COLORS
+========================= */
+:root {
+  --bg: #F5F2F7;
+  --surface: #FFFFFF;
+  --surface-2: #FBF9FD;
+
+  --text: #141218;
+  --muted: #7C738A;
+
+  --border: #E8E2EF;
+
+  --accent: #8A6FA8;
+  --accent-soft: #D6C6E6;
+
+  --shadow: 0 4px 20px rgba(20, 18, 24, 0.05);
+}
+
+html.dark {
+  --bg: #0D0B11;
+  --surface: #16141C;
+  --surface-2: #1D1A25;
+
+  --text: #F5F2F7;
+  --muted: #AFA7BD;
+
+  --border: #2C2734;
+
+  --accent: #CBB4E3;
+  --accent-soft: #8A6FA8;
+
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* =========================
+   BASE
+========================= */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+   body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+  }
+}
+
+/* =========================
+   COMPONENTS
+========================= */
+@layer components {
+  .nav-link {
+    @apply text-xs uppercase tracking-widest transition-all duration-300;
+    color: var(--muted);
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background: var(--accent);
+    transition: width 0.3s;
+  }
+
+  .nav-link:hover {
+    color: var(--accent);
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  .section-label {
+    @apply font-mono text-xs uppercase tracking-widest;
+    color: var(--muted);
+  }
+
+  .display-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-semibold uppercase tracking-widest transition-colors duration-200;
+    background-color: var(--accent);
+    color: var(--bg);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--accent-soft);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border px-6 py-3 text-xs font-semibold uppercase tracking-widest transition-colors duration-200;
+    border-color: var(--border);
+    color: var(--text);
+    background-color: transparent;
+  }
+
+  .btn-outline:hover {
+    background-color: var(--text);
+    color: var(--bg);
+  }
+
+  .btn-border {
+    @apply inline-flex items-center justify-center border px-4 py-2 text-xs font-semibold uppercase tracking-widest transition-colors duration-200;
+    border-color: var(--border);
+    color: var(--text);
+    background-color: transparent;
+  }
+
+  .btn-border:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+}
+
+/* =========================
+   LOGO FIX (IMPORTANT)
+========================= */
+.logo {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+
+  /* subtle sharpness */
+  image-rendering: -webkit-optimize-contrast;
+  filter: contrast(1.05);
+}
+.process-card:hover {
+  transform: translateY(-6px);
+}
+/* Desktop slightly bigger */
+@media (min-width: 768px) {
+  .logo {
+    height: 50px;
+  }
+}
+@keyframes float3d {
+  0%   { transform: translateY(0px) rotateX(0deg); }
+  50%  { transform: translateY(-10px) rotateX(4deg); }
+  100% { transform: translateY(0px) rotateX(0deg); }
+}
+
+.float-3d {
+  animation: float3d 6s ease-in-out infinite;
+}
+/* Dark mode fix */
+
+
+/* Subtle premium hover */
+.logo:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 18s linear infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.fade-up-delay-1 {
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.fade-up-delay-2 {
+  animation-delay: 0.25s;
+  opacity: 0;
+}
+
+.fade-up-delay-3 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.fade-up-delay-4 {
+  animation-delay: 0.55s;
+  opacity: 0;
+}
