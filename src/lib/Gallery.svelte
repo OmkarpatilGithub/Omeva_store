@@ -136,7 +136,9 @@
 
             <!-- ORDER BUTTON -->
             <a
-              href={`https://wa.me/919270905007?text=I'm interested in ${product.name} (${product.id})`}
+              href={`https://wa.me/919270905007?text=${encodeURIComponent(
+    `I'm interested in ${product.name} (${product.id})`
+  )}`}
               target="_blank"
               rel="noopener"
               class="font-mono text-xs px-3 py-1.5 transition-all duration-200 whitespace-nowrap rounded"
