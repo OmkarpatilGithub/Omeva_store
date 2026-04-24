@@ -3,6 +3,7 @@
   let submitted = false;
 
   function handleSubmit() {
+
     const msg = encodeURIComponent(
       `Name: ${form.name}\nPhone: ${form.phone}\nEmail: ${form.email}\nQuantity: ${form.quantity}\nMessage: ${form.message}`
     );
